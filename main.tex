@@ -4,12 +4,14 @@
 % Template author: Anindya Prithvi
 % define all your stuff here
 \newcommand{\yourname}{Shagun Yadav}%
-\newcommand{\youremail}{shagun22466@iiitd.ac.in}%
-\newcommand{\youraddress}{Address: F-16, Shiganshina District\\Near Wall Maria, Paradise Island}%
 \newcommand{\yourrollno}{2022466}%
-\newcommand{\yourDOB}{03 January, 2005}%
+\newcommand{\youremail}{shagun22466@iiitd.ac.in}%
+\newcommand{\yourDOB}{January 3, 2005}%
 \newcommand{\yourgithub}{https://github.com/kyukuu}%
-\newcommand{\yourphoto}{myphoto}% Only the filname without extension
+\newcommand{\yourlinkedin}{https://www.linkedin.com/in/shagun-yadav-/}%
+% \newcommand{\yourphoto}{IMG_6644}% Only the filname without extension
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep, topsep=0pt}
 
 \newcommand{\yourlieinapril}{Shigatsu wa kimi no uso}%lol
 
@@ -21,29 +23,27 @@
 \begin{contained}
 \sectionC{Education}
 \begin{longtable}{p{0.8\textwidth}p{0.19\textwidth}p{0.01\textwidth}}
-    \cveducationitem{Indraprastha Institute of Information Technology, Delhi}{B.Tech (CSE)}{2022 - present}{CGPA: 9.4\newline(Till 4\textsuperscript{th} semester)}
-    \cveducationitem{Delhi Public School, Dwarka}{CBSE, Standard 12, PCM+CS}{2020-2022}{Percentage : 95\%}
-    \cveducationitem{Delhi Public School, Dwarka}{CBSE, Standard 10}{2018 - 2020}{Percentage : 98.89\%}
+    \cveducationitem{Indraprastha  Institute of Information Technology, Delhi}{B.Tech. (CS + Design)}{2022 - present}{CGPA: 9.4\newline(Till 2\textsuperscript{th} semester)}
+    \cveducationitem{Delhi Public School, Dwarka}{CBSE, Standard 12, PCM+CS}{2020 - 2022}{Percentage: 95.6\%}
+    \cveducationitem{Delhi Public School, Dwarka}{CBSE, Standard 10}{2018 - 2020}{Percentage: 98.9\%}
 \end{longtable}%
-\vspace{0pt}
+\vspace{-3mm}
 \end{contained}
 %
 \begin{contained}
 \sectionC{Skills}
 %nothing to modularize here, just write your stuff
 \begin{longtable}{p{0.2\textwidth}p{0.75\textwidth}p{0.05\textwidth}}
-    \textbf{Expertise Area:}&
-    Colonel Development, Unsmart Contract Development (Bitcoin), Object Oriented Programming, Statistical Machine Learning, \LaTeX, \LaTeXe\\
-    \textbf{Programming \newline Languages:}&
-    Python, C++, C, HTML, CSS, Javascript\\
-    \textbf{Tools and\newline Technologies:}&
-    Git, GitHub, Matlab, Adobe Suite, Ganache, Brownie, Shells
-    (ZSH, Bash), Android Studio, IntelliJ IDEA, PyCharm, PyTorch, VSCode,
-    Coppelia Sim, Overleaf, Heroku, JavaFX, Angular, Google Collab, Kaggle\\
-    \textbf{Technical Electives:}&
-    Operating Systems, Advanced Programming, Multivariable Calculus, Data Structures and Algorithms, Organisation, Probability and Statistics, Linear Algebra, Digital Circuits
+    \textbf{Expertise Area}&
+    Network and Information Security, Operating Systems, Network Programming, Data Structures, Algorithm Design, Object Oriented Programming\\
+    \textbf{Programming\newline Languages}&
+    C++, C, Python, Java\\
+    \textbf{Tools and\newline Technologies}&
+    Wireshark, Docker, Procmon, Git, Shell Script, Ghidra, IDA Pro, Burp Suite, Arduino, Flutter, HTML/CSS/JS, Azure Virtual Machines, Azure Container Instances, Windows Server, MySQL, \LaTeX\\
+    \textbf{Technical Electives}&
+    Algorithm Design and Analysis, Operating Systems, Theory of Computation, Human Computer Interaction, Prototyping Interactive Systems, Data Structures and Algorithms, Advanced Programming in Java, Discrete Maths, Computer Organisation
 \end{longtable}%
-\vspace{0pt}
+\vspace{-3mm}
 \end{contained}
 %
 \begin{contained}
@@ -53,9 +53,31 @@
 \begingroup%
 \renewcommand\arraystretch{1}%
 \begin{longtable}{p{0.8\textwidth}p{0.19\textwidth}p{0.01\textwidth}}
-    \textbf{Effect of ChatGPT on undergraduate CS students}&(May, 23 - Present)\\
-    {Advisor: Dr. Erwin Smith, Taicho}\\
-    We were tasked with detaining Reiner, a marleyan warrior tasked to end Eldia. We could not do it, however Armin succeeded in his plan. Armin is now the Colossal Titan. Berthdolt Shindayo. However we recently came to know that there is a whole world w/o us.
+    \textbf{Women Engineers Program}&(Sep, 22 - Present)\\
+    {NSE Talentsprint supported by Google}\\
+    \vspace{-3mm}
+    \begin{itemize}
+        \item Selected amongst a cohort of 200 students in an applicant pool of 20,000+
+        \item Worked on IP Address Geolocation using constraint-based methods, used outlier removal and linear quadratic estimation/filtering to improve the accuracy by $\approx34\%$.
+        \item Scholarship: 1,00,000.
+    \end{itemize}
+    \vspace{-8mm}
+    \nointerlineskip
+\end{longtable}%
+\endgroup%
+\begingroup%
+\renewcommand\arraystretch{1}%
+% \begin{longtable}{p{0.8\textwidth}p{0.19\textwidth}p{0.01\textwidth}}
+%     \textbf{Teaching Assistant, Introduction to HCI (Monsoon 2022), IIIT Delhi}&(Nov, 22 - Feb, 23)\\
+%     {Advisor: Dr. Rajiv Ratn Shah}\\
+%     \vspace{-3mm}
+%     \begin{itemize}
+%         \item Conducted weekly tutorials to assist students through the interaction design process.
+%         \item Took class sessions on Product Development, UI/UX Prototyping and Figma.
+%         \item Assisted the professor in the grading of exams and the final UI/UX prototyping project.
+%     \end{itemize}
+%     \vspace{-3mm}
+%     \nointerlineskip
 \end{longtable}%
 \endgroup%
 \end{contained}
@@ -66,76 +88,150 @@
 %nothing to modularize here, just write your stuff
 %might add a row with \newline for techstack, but it seems pretty useless lol
 \begin{longtable}{p{0.8\textwidth}p{0.19\textwidth}p{0.01\textwidth}}
-    \textbf{Moodify - describe...}\newline
-    A fully functional blockchain solution for everyday transactions
-    involving low-trust intermediaries. Relies on EVM and solidity (smart contract).
-    Instance deployed \href{https://macaroon.web.app/}{here}.
+\textbf{Living Lightly | \href{https://drive.google.com/file/d/1X0NO67mCJxHu2BKZ6AFn1_c6qAHlykQ-/view?usp=sharing}{Project Report}}\newline
+    Guide: Dr. Tapan Parikh (Associate Professor at Information Science Department | Cornell University)\\
+    \vspace{-4mm}
+    \begin{itemize}
+        \item \textbf{Tech Stack:} Figma, HTML/CSS/Javascript, Tailwind, 
+        \item Research project under professor Tapan Parikh to improve the user experience and UI for the living lightly project which is a project to track pastoral routes across india,
+    \end{itemize}
+    \vspace{-4mm}
+    &Team Size-15
+    \newline (May, 23 – August, 23)\\
+    \textbf{SimpleRISC Assembler and Simulator | \href{https://github.com/SakshxmSingh/Assembler-Simulator}{GitHub}}\newline
+    Guide: Dr. Tammam Tillo\\
+    \vspace{-4mm}
+    \begin{itemize}
+        \item \textbf{Tech Stack:} Python, Github, Git, Linux.
+        \item Developed a website-based stationery store using Database Management Concepts.
+        \item Designed ER Diagrams to ideate a structure to ensure ACID properties.
+    \end{itemize}
+    \vspace{-4mm}
     &Team Size-4
-    \newline (Dec, 21 – Jan, 22)\\
-    \textbf{Living Lightly - writeee}\newline
-    A TUI based Zelda game made in python [+Blessed library]. Modularized and PEP8 compliant. Also has localization in diff. languages. Repository \href{https://github.com/StephD/CJ8-blessed-badgers}{here}.
-    &Team Size-6
-    \newline (July, 21)\\
-    \textbf{Impact of ChatGPT on undergraduate CS students}\newline
-    A py-based discord bot made with discord.py. Capable of file I/O, API calls, Direct deployer interaction and asynchronous requests processing. Repository \href{https://github.com/Anindya-Prithvi/rerebot}{here}.
-    &Individual
-    \newline (Oct, 21 - Nov, 21)\\
-    \textbf{Will Hero – GUI game}\newline
-    A tap-to-play single player game in JAVA using JavaFX. Uses various
-    concepts of Multithreading and self-designed 2D physics engine. Repository \href{https://github.com/vibsterD/CSE201-AP-Project}{here}.
+    \newline (Mar, 23 – Jul, 23)\\
+    \textbf{Vroom}\newline
+    Made for Anveshan 2.0 Hackathon, won the third prize\\
+    \vspace{-4mm}
+    \begin{itemize}
+        \item \textbf{Tech Stack:} Figma, Flutter, Dart
+        \item Used operant conditioning to design a  low cognitive distraction driving mode mobile interface.
+    \end{itemize}
+    \vspace{-4mm}
+    &Team Size-5
+    \newline (Dec, 22 – Jan, 23)\\
+    \textbf{Moodify | \href{https://github.com/encryptedcation/TankStars}{GitHub}}\newline
+    Guide: prof. Ashokan Pichai\\
+    \vspace{-4mm}
+    \begin{itemize}
+        \item \textbf{Tech Stack:} Python, JavaScript, SpaCY, NLPK, HTML, CSS
+        \item Developing "Moodify" extension: utilizes sentiment analysis and tone customization for accurate digital communication.
+        \item Tone customization options (formal, casual, friendly) ensure users convey messages aligned with their desired communication style.
+        \item The plugin suggests alternative phrases, culturally sensitive, and idiomatic expressions, complemented by emotion-based emoji recommendations for enhanced understanding.
+    \end{itemize}
+    \vspace{-4mm}
+    &Team Size-3
+    \newline (Aug, 22 – Present)\\
+    % \textbf{SimpleRISC Assembler | \href{https://github.com/encryptedcation/Assembler}{GitHub}}\newline
+    % Guide: Dr. Sujay Deb\\
+    % \vspace{-4mm}
+    % \begin{itemize}
+    %     \item \textbf{Tech Stack:} Python, Matplotlib
+    %     \item Scripted an Assembly to Binary Convertor for a custom ISA.
+    % \end{itemize}
+    % \vspace{-4mm}
+    % &Team Size-3
+    % \newline (Jul, 22 – Aug, 22)\\
+    \textbf{BattleShip | \href{https://github.com/encryptedcation/NoDoubt}{GitHub}}\newline
+    Guide: Dr. Pankaj Jalote\\
+    \vspace{-4mm}
+    \begin{itemize}
+        \item \textbf{Tech Stack:} Python, Tkinter
+        \item We made a two-player game inspired by the classic board game: Battleship using Python.
+        \item Developed the GUI for the game using the Tkinter library from Python.
+    \end{itemize}
+    \vspace{-4mm}
     &Team Size-2
-    \newline (Oct, 21 - Jan, 22)\\
-    \textbf{Assembler-Compiler - Computer Organisation Project}\newline
-    An EDA+molecular docking of RdRp based on previous literary works. Used
-    bioinformatics tools for molecular docking (autodock) and protein/nucleotide
-    alignment. Final report \href{https://anindya-prithvi.github.io/filehost/PB_Project.pdf}{here}.
-    &Team Size-6
-    \newline (March, 22 - May, 22)\\
-    \textbf{Spectrum Sensing with Deep Learning to Identify 5G and LTE Signals}\newline
-    Analysis of the latent space of a trained network (on MNIST digits dataset). Obtained MLE estimates of all classes in the latent space with successful reconstruction (which might fool human discriminators). Repository \href{https://github.com/Anindya-Prithvi/MNIST_CAELatentSpace}{here}.
-    &Individual
-    \newline (May, 22 - Present)\\
-\end{longtable}
-\end{contained}
-\vspace{0pt}
-\begin{contained}
-\sectionC{Positions of Responsibility}
-% \vspace{-10pt}
-\begin{longtable}{p{0.8\textwidth}p{0.19\textwidth}p{0.01\textwidth}}
-    Student Representative | Student Senate & (Nov, 22 – July, 23)\\
-    Organising Team @ Esya'23- Annual tech fest of IIITD & (June,22 - Present)\\
-    Student Mentor @ IIITD Induction'23 & (August ,23- Present)\\
-    Organiser @ Clubs Mela for Trivialis- Quizzing Club & (August ,23- Present)\\
-    Joint Head Girl @ DPS Dwarka & (April ,21- March ,22)\\
-    President @ Flux- Physics Society | DPS Dwarka & (April ,21- March ,22)\\
-    President @ Socrates- Debating and MUN society | DPS Dwarka & (April ,21- March ,22)\\
+    \newline (Nov, 22 – Mar, 23)\\
+        \textbf{Examining ChatGPT’s
+Usage among Undergraduate Students in Computer Science | \href{https://github.com/HydroHomiesIIITD/hydrohomiesiiitd.github.io}{GitHub}}\newline
+    Guide: Dr. Dhruv Kumar\\
+    \vspace{-4mm}
+    \begin{itemize}
+        \item \textbf{Tech Stack:} Python, JavaScript, Google Maps API, Google Cloud Console
+        \item Automated scripts to scrape data and calculate water quality indexes for Indian districts.
+        \item Developed a web-app to present water quality severity on a Google Maps instance.
+    \end{itemize}
+    \vspace{-4mm}
+    &Team Size-8
+    \newline (May, 22 – Present)\\
+    \textbf{MusicFetch | \href{https://github.com/encryptedcation/NoDoubt}{GitHub}}\newline
+    Guide: Dr. Pankaj Jalote\\
+    \vspace{-4mm}
+    \begin{itemize}
+        \item \textbf{Tech Stack:} Python, APIs
+        \item A Project that retrieves the discography of the artist you search for alongwith song lyrics for each song, artists' details, interesting trivia, and much more.
+    \end{itemize}
+    \vspace{-4mm}
+    &Team Size-2
+    \newline (Nov, 22 – Mar, 23)\\
+    
     
 \end{longtable}
-\vspace{0pt}
+\end{contained}
+\begin{contained}
+\sectionC{Leadership Experience}
+% \vspace{-10pt}
+\begin{longtable}{p{0.8\textwidth}p{0.19\textwidth}p{0.01\textwidth}}
+    \textbf{Student Senate Representative} for the batch of 2022 at IIIT Delhi & (Nov , 22 - Jul , 23)\\
+    \textbf{President} at Flux- Physics Society, DPS Dwarka & (Apr, 21 - Mar, 22)\\
+    % \textbf{Core Member} at the Cultural Council, IIIT Delhi & (Oct, 22 - Present)\\
+    \textbf{President} at Socrates- MUN and Debating Society, DPS Dwarka & (Apr , 21 - Mar , 22)\\
+    \textbf{Jt. Head Girl} at Student Council, DPS Dwarka & (Jul, 22 - Present)\\
+    \textbf{Organising Team} at Esya'23 - Annual Techfest of IIITD, IIITD & (Apr, 22 - Present)\\
+\end{longtable}
+\vspace{-6pt}
+\end{contained}
+\begin{contained} 
+\sectionC{Volunteering Experience}
+\begin{longtable}{p{0.8\textwidth}p{0.19\textwidth}p{0.01\textwidth}}
+    \textbf{Student Mentor} at the Induction for the batch of '27  & (Aug, 23)\\
+    % \textbf{Joint Organiser} at DEF CON DC9111 Group & (Jun, 22 - Aug, 22)\\
+\end{longtable}
+\vspace{-6pt}
 \end{contained}
 \begin{contained}
 \sectionC{Awards and Achievements}
-\vspace{0pt}
+\vspace{3pt}
 \begin{itemize}
-    \setlength\itemsep{0.5pt}
-    \item First position in Anveshan'23 (Team Human Benigns)
-    \item 2.2k reputation on stack-exchange network. St. Stephens essay \href{https://math.stackexchange.com/users/811225}{\color{red!70} Math SE}
-    \item Second position in DTU DareToComplete CTF Illiad (open for all)
-    \item 99.32 percentile in Shiganshina Entrance Spacetech
+    \setlength\itemsep{5pt}
+    \item Presented a workshop on \textbf{"Co-Design for a Bestiary of Cybercrime: Experiments in Cybersecurity's Divulgation through Art"} at \href{https://rightscon.summit.tc/t/rightscon-costa-rica-2023/events/co-design-session-for-a-bestiary-of-cybercrime-experiments-in-cybersecuritys-divulgation-through-art-fffy78vC13MK975jMRYrBt}{\textbf{RightsCon 2023}}, held at Costa Rica.
+    \item Won the \textbf{USACO Bronze Medal} with a \textbf{perfect score (1000/1000)} at the January 2021 contest.
+    \item Cleared all 5 levels of \textbf{Google Foobar}.
+    \item \textbf{Qualified Zonal Informatics Olympiad} to be selected as one of 229 candidates for the Indian National Olympiad for Informatics, 2021.
+    \item Won \textbf{third prize consecutively for two years (2022-2023) at the Anveshan hackathon} held annually at IIIT Delhi.
+    \item Received the \textbf{Dean's List Award} for Contributions to the IIIT Delhi Communications Department in 2022.
+    \item Won the \textbf{Best Educational CTF Challenge Award at \href{https://defcon.org/}{DEF CON 30}}. | \href{https://drive.google.com/file/d/1R2MEy4BXBFvZfaGATbql4gKBpBLYgiuj/view?usp=sharing}{Certificate}
+    % \item Max rating of \textbf{1072 on \href{https://codeforces.com/profile/sociallyencrypted}{Codeforces}}.
+    \item Ranked \textbf{2nd Worldwide at WreckCTF 2022} organised by Georgia Tech as a member of d4rkc0de.
+    \item Ranked \textbf{4th in India at the CSAW CTF Finals 2022} as a member of d4rkc0de.
+    \item Ranked \textbf{4th Worldwide at the Digital Overdose CTF 2022} as a member of d4rkc0de
+    \item Ranked \textbf{10th Worldwide at the \href{https://defcon9111.org/}{DEF CON Delhi} 0x05 CTF}. |  \href{https://drive.google.com/file/d/1QYBzX-xQyPaXO9JjL7QrQBjV__Ia65fu/view?usp=sharing}{Certificate}
+    \item \textbf{Won Aurora CTF 2022} organised by DTU as a member of d4rkc0de.
+    % \item Ranked \textbf{5868th} at Google Kick Start 2022, Round F.
+    % \item Won the \textbf{Best Scientific Illustration Award} at the Shri Hari Tech Exhibit organised by VPMS Faridabad.
 \end{itemize}
-\vspace{0pt}
+\vspace{5pt}
 \end{contained}
 \sectionC{Interests and Hobbies}
 \begin{contained}\\
+\vspace{5pt}
 \begin{itemize}
-    \setlength\itemsep{0.5pt}
-    \item Playing the keyboard
-    \item Curating Playlists
-    \item Reverse Engineering
-    \item Wayland/X11 based window compositors
-    \item \LaTeX
+    \setlength\itemsep{5pt}
+    % \item \textbf{Maths} - Active member of Évariste, the mathematics and theory society of IIIT Delhi since May 2023.
+    \item \textbf{Music} - Active member of Audiobytes, the music society of IIIT Delhi since January 2023.
+    \item \textbf{Quizzing} - Core member of Trivialis, the quizzing society of IIIT Delhi since February 2022.
 \end{itemize}
-% \vspace{5pt}
+\vspace{5pt}
 \end{contained}
 Declaration: The above information is correct to the best of my knowledge.\newline
 \yourname\newline
